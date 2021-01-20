@@ -12,6 +12,8 @@
 		2751CFC925AEAB4600D7D859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2751CFC725AEAB4600D7D859 /* Main.storyboard */; };
 		2751CFCB25AEAB4700D7D859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2751CFCA25AEAB4700D7D859 /* Assets.xcassets */; };
 		2751CFCE25AEAB4700D7D859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2751CFCC25AEAB4700D7D859 /* LaunchScreen.storyboard */; };
+		2751CFD625AEAB6100D7D859 /* RESTfulModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751CFD525AEAB6100D7D859 /* RESTfulModel.swift */; };
+		27CAD5F825B21C3100C2A3E6 /* SampleStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CAD5F725B21C3100C2A3E6 /* SampleStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2751CFCA25AEAB4700D7D859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2751CFCD25AEAB4700D7D859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2751CFCF25AEAB4700D7D859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2751CFD525AEAB6100D7D859 /* RESTfulModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTfulModel.swift; sourceTree = "<group>"; };
+		27CAD5F725B21C3100C2A3E6 /* SampleStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2751CFCA25AEAB4700D7D859 /* Assets.xcassets */,
 				2751CFCC25AEAB4700D7D859 /* LaunchScreen.storyboard */,
 				2751CFCF25AEAB4700D7D859 /* Info.plist */,
+				2751CFD525AEAB6100D7D859 /* RESTfulModel.swift */,
+				27CAD5F725B21C3100C2A3E6 /* SampleStructures.swift */,
 			);
 			path = RESTfulAppCoda;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2751CFC625AEAB4600D7D859 /* ViewController.swift in Sources */,
+				2751CFD625AEAB6100D7D859 /* RESTfulModel.swift in Sources */,
 				2751CFC425AEAB4600D7D859 /* AppDelegate.swift in Sources */,
+				27CAD5F825B21C3100C2A3E6 /* SampleStructures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
